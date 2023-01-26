@@ -1,2 +1,4 @@
 .vscode/
 *.out
+checkpatch.pl
+*.EXPERIMENTAL-checkpatch-fixes
