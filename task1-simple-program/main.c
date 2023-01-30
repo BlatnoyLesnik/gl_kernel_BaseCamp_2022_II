@@ -1,14 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <stdint.h>
-#include <time.h>
-
-uint16_t randomize(void)
-{
-  srand(time(NULL));
-  return (rand() % 10);
-
-}
+#include "random.h"
 
 int main() 
 {
