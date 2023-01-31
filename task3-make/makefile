@@ -30,4 +30,7 @@ run: regular
 check:
 	${TEST} ${SFILE}
 
+clean:
+	rm -f *.o *.out *.a *.so
+
 .PHONY: run regular static dynamic_share check
